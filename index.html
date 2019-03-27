@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ma to Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div id="AddTaskFormControl">
+        <h1>Ma To Do List</h1>
+        <div id="groupInput">
+            <input type="text" id="data" placeholder="nouvelle tâche">
+            <button id="sendData">envoyer</button>
+        </div>
+    </div>
+
+    <div id="data">
+        <table id="myTable">
+
+        </table>
+    </div>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h2>Attention <i class="fa fa-warning "></i></h2>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+                <button class="button dismiss"> Annuler</button>
+                <button class="button transmit">Envoyer</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="myModalUser" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+
+                <h2>Gestion utilisateur<i class="fa fa-user"></i></h2>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <center>
+                    <button class="button dismiss"> Fermer</button>
+                </center>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="libs/jquery/jquery.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
